@@ -227,6 +227,9 @@ int main()
     
     std::cout << "Solutia sistemului este: \n";
     rezsistem(x1, x2, y1, y2, r1, r2);
+    int x;
+    cout << " \nPress any key to exit...";
+    cin >> x;
     
-    
+    return 0;
 }
