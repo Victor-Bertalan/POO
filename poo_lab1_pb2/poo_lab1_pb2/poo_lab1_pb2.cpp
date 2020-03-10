@@ -164,7 +164,7 @@ Fractie operator>>(istream& is, Fractie& f)
                 numarator *= -1;
             n = 2;
             k = 0;
-            f.setNumitor(0);
+            numitor = 0;
             continue;
         }
         if (fr[i] == '-')
@@ -214,17 +214,22 @@ int main()
     Fractie x1,y1,r1,x2,y2,r2;
     cout << "Introduceti coeficientul lui x din prima ecuatie(a/b) \n";
     cin >> x1;
+    cout << x1;
     cout << "Introduceti coeficientul lui y din prima ecuatie(a/b) \n";
     cin >> y1;
+    cout << y1;
     cout << "Introduceti rezultatul primei ecuatii(a/b) \n";
     cin >> r1;
+    cout << r1;
     cout << "Introduceti coeficientul lui x din a doua ecuatie(a/b) \n";
     cin >> x2;
+    cout << x2;
     cout << "Introduceti coeficientul lui y din a doua ecuatie(a/b) \n";
     cin >> y2;
+    cout << y2;
     cout << "Introduceti rezultatul celei de a doua ectuatii(a/b) \n";
     cin >> r2;
-    
+    cout << r2;
     std::cout << "Solutia sistemului este: \n";
     rezsistem(x1, x2, y1, y2, r1, r2);
     int x;
