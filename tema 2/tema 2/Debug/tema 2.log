@@ -1,0 +1,4 @@
+﻿  tema 2.cpp
+D:\POO git\POO\tema 2\tema 2\tema 2.cpp(140,13): warning C4551: function call missing argument list
+D:\POO git\POO\tema 2\tema 2\tema 2.cpp(149): warning C4715: 'Stiva::pop': not all control paths return a value
+  tema 2.vcxproj -> D:\POO git\POO\tema 2\Debug\tema 2.exe
